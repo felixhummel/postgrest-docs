@@ -8,7 +8,7 @@ Using PostgREST is an alternative to manual CRUD programming. Custom API servers
 Declarative Programming
 -----------------------
 
-It's easier to ask PostgreSQL to join data for you and let its query planner figure out the details than to loop through rows yourself. It's easier to assign permissions to db objects than to add guards in controllers. (This is especially true for cascading permissions in data dependencies.) It's easier set constraints than to litter code with sanity checks.
+It's easier to ask PostgreSQL to join data for you and let its query planner figure out the details than to loop through rows yourself. It's easier to assign permissions to db objects than to add guards in controllers. (This is especially true for cascading permissions in data dependencies.) It's easier to set constraints than to litter code with sanity checks.
 
 Leak-proof Abstraction
 ----------------------
@@ -18,7 +18,7 @@ There is no ORM involved. Creating new views happens in SQL with known performan
 Embracing the Relational Model
 ------------------------------
 
-In 1970 E. F. Codd criticized the then-dominant hierarchical model of databases in his article A Relational Model of Data for Large Shared Data Banks. Reading the article reveals a striking similarity between hierarchical databases and nested http routes. With PostgREST we attempt to use flexible filtering and embedding rather than nested routes.
+In 1970 E. F. Codd criticized the then-dominant hierarchical model of databases in his article A Relational Model of Data for Large Shared Data Banks. Reading the article reveals a striking similarity between hierarchical databases and nested HTTP routes. With PostgREST we attempt to use flexible filtering and embedding rather than nested routes.
 
 One Thing Well
 --------------
